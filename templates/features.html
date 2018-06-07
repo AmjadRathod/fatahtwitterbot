@@ -1,0 +1,65 @@
+<article>
+	<div id="features-app">
+		<a id="features-two" href="#" style="font-size: 20px;">
+			<i class="fa fa-wrench" aria-hidden="true"></i> features
+		</a><span id="flash"> <--more info on features here!</span>
+		<form method="POST" id="featureform" enctype="multipart/form-data">
+		  <input type="checkbox"
+				 name="retweet"
+				 > retweet & follow<br>
+		  <input type="checkbox"
+				 name="followfollowers"
+				 > follow followers<br>
+		  <input type="checkbox"
+				 name="followx"
+				 > follow X more<br>
+		  <input type="number"
+				 name="xfollowers"
+				 min="1"
+				 max="20"
+				 step="1"
+				 title="min: 1, max: 20 more followers">
+		  <span style="font-size: 15px;">  :X users</span><br>
+  		  <input type="checkbox"
+				 name="autoretweet"
+				 > auto retweet<br>
+		  <input type="number"
+				 name="iterations"
+				 min="3"
+				 max="25"
+				 step="1"
+				 title="min: 3, max: 25 iterations">
+		  <span style="font-size: 15px;"> :Y iterations</span>
+		  <br>
+		  <strong>Search Terms:</strong><br>
+		  <input type="text"
+				 name="searchterms"
+				 id="search-input"
+				 placeholder="used with all selections"
+				 maxlength="25"
+				 title="maximum: 140 characters"
+				 ><br>
+		  <span style="font-size:15px">
+			(default: '#diversity')</span><br>
+		  <input type="checkbox"
+				 name="autotweet"
+				 > auto tweet file<br>
+		  <a style="font-size: 14px;"
+			 href="https://github.com/johncoleman83/mini-tweet-bot/blob/master/support/daffodils.txt"
+			 target="_blank">click here for example file</a><br/>
+		  <input type="file" name="inputfile" accept=".txt"><br>
+		  <input type="number"
+				 name="seconds"
+				 min="10800"
+				 max="600000"
+				 step="60"
+				 title="min: 3 hours to max: 7 days in seconds">
+		  <span style="font-size: 14px;">  :N seconds</span><br>
+		  <span style="font-size:15px">(default: 86400 seconds; i.e. 1 day)</span><br />
+		  <input type="submit" value="&#xf099 Automate" class="tweetbutton">
+		</form>
+		*participation requires compliance of
+		<a href="https://support.twitter.com/articles/18311"
+		   target="_blank">"The Twitter Rules"</a>
+	</div>
+</article>
