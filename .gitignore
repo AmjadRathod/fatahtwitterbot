@@ -25,7 +25,6 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
-credentials.py
 credentials-djc.py
 
 # python virtual environment/compiled files
