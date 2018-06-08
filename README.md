@@ -27,7 +27,7 @@
 
   * __twitter dev tools:__ https://dev.twitter.com/
   * __tweet deck:__ https://tweetdeck.twitter.com/
-  * __twitter (bot) account:__ https://twitter.com/are_no_one
+  * __twitter (bot) account:__ https://twitter.com/AmjadRathod
   * __api limits:__ https://support.twitter.com/articles/160385
   * __best practices:__ https://dev.twitter.com/basics
 
@@ -43,8 +43,8 @@ applications with IBM Bluemix.
 
 ## documentation
 
-For integration with IBM Bluemix, cloudfoundry apps, see the 
-[README.md](https://github.com/IBM-bluemix/get-started-python) 
+For integration with IBM Bluemix, cloudfoundry apps, see the
+[README.md](https://github.com/IBM-bluemix/get-started-python)
 from the below referenced repository.  Or read the blog post referenced above.
 
 ## file List
