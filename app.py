@@ -2,7 +2,7 @@
 app python mini tweet bot application
 takes user input and tweets to designated account
 """
-# import web
+import web
 import tweepy
 import multiprocessing
 from time import sleep
